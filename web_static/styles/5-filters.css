@@ -1,0 +1,61 @@
+/* Style pour la section des filtres */
+.filters {
+    background-color: white; /* Couleur de fond */
+    height: 70px; /* Hauteur fixe */
+    width: auto; /* Largeur automatique en fonction du contenu */
+    max-width: 1000px; /* Largeur maximale */
+    border: 1px solid #DDDDDD; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+    display: flex; /* Affichage en mode flexbox */
+    align-items: center; /* Alignement vertical des éléments */
+    justify-content: flex-end; /* Alignement horizontal des éléments sur la droite */
+    padding: 0 20px; /* Espacement intérieur */
+    margin: 0 auto; /* Centrage horizontal */
+  }
+  
+  /* Style pour la section des filtres de localisation */
+  .locations {
+    height: 100%; /* Hauteur de la section */
+    width: 25%; /* Largeur de la section */
+    border-right: 1px solid #DDDDDD; /* Bordure droite */
+  }
+  
+  /* Styles pour les titres h3 dans la section des filtres */
+  .filters h3 {
+    padding-left: 40px; /* Espacement à gauche */
+    padding-top: 10px; /* Espacement en haut */
+    font-weight: 600; /* Poids de la police */
+    margin: 10px; /* Marge extérieure */
+  }
+  
+  /* Styles pour les sous-titres h4 dans la section des filtres */
+  .filters h4 {
+    font-weight: 400; /* Poids de la police */
+    font-size: 14px; /* Taille de la police */
+    margin: 5px; /* Marge extérieure */
+    padding-left: 40px; /* Espacement à gauche */
+  }
+  
+  /* Style pour la section des filtres d'équipements */
+  .filters .amenities {
+    height: 100%; /* Hauteur de la section */
+    width: 25%; /* Largeur de la section */
+  }
+  
+  /* Style pour le bouton de recherche */
+  button {
+    font-size: 18px; /* Taille de la police */
+    background-color: #FF5A5F; /* Couleur de fond */
+    color: #FFFFFF; /* Couleur du texte */
+    height: 48px; /* Hauteur */
+    width: 20%; /* Largeur */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins arrondis */
+    margin-left: 30px; /* Marge à gauche */
+  }
+  
+  /* Style pour le bouton de recherche au survol */
+  button:hover {
+    opacity: 90%; /* Opacité au survol */
+  }
+  
