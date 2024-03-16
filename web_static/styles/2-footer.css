@@ -1,0 +1,11 @@
+footer {
+    background-color: #00FF00; /* Couleur de fond vert */
+    height: 60px; /* Hauteur du pied de page */
+    width: 100%; /* Largeur du pied de page à 100% */
+    position: fixed; /* Position fixe pour rester en bas de la page */
+    bottom: 0; /* Aligner le pied de page en bas */
+    text-align: center; /* Centrer horizontalement le contenu */
+    display: flex; /* Utilisation du modèle de boîte flexible pour aligner verticalement */
+    align-items: center; /* Aligner verticalement le contenu au centre */
+    justify-content: center; /* Aligner horizontalement le contenu au centre */
+  }
