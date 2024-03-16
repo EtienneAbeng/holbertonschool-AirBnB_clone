@@ -1,0 +1,13 @@
+body {
+    margin: 0; /* Suppression de la marge extérieure */
+    padding: 0; /* Suppression du remplissage extérieur */
+    color: #484848; /* Ajouter une couleur noir */
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 60px;
+  }
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
