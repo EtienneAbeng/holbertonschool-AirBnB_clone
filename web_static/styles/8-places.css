@@ -82,9 +82,7 @@
 }
 
 /* Styles pour les paragraphes à l'intérieur des éléments "max_guest", "number_rooms", "number_bathrooms" */
-.max_guest p,
-.number_bathrooms p,
-.number_rooms p {
+.max_guest p, .number_bathrooms p, .number_rooms p {
     margin-top: 55px; /* Marge supérieure */
 }
 

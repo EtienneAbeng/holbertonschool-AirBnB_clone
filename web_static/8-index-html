@@ -10,9 +10,7 @@
   <link rel="stylesheet" type="text/css" href="../web_static/styles/3-header.css"> <!-- Importation du style pour l'en-tête -->
   <link rel="stylesheet" type="text/css" href="/web_static/styles/6-filters.css"> <!-- Importation du style pour les filtres -->
   <link rel="stylesheet" type="text/css" href="../web_static/styles/4-common.css"> <!-- Importation du style commun -->
-  <link rel="stylesheet" type="text/css" href="../web_static/styles/7-places.css"> <!-- Importation du style pour les places -->
   <link rel='stylesheet' type="text/css" href='../web_static/styles/8-places.css'> <!-- Importation du styles pour les places-->
-  <link rel="icon" type="image/png" href="../web_static/images/icon.png"> <!-- Définition de l'icône du site -->
 </head>
 
 <body>
