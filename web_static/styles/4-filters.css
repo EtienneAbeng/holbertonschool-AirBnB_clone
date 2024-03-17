@@ -12,7 +12,7 @@
 }
 
 /* Styles pour le bouton de recherche */
-.filter button {
+.filters button {
   font-size: 18px; /* Taille de la police */
   background-color: #FF5A5F; /* Couleur de fond */
   color: #FFFFFF; /* Couleur du texte */
