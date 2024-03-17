@@ -1,7 +1,7 @@
 body {
-    margin: 0; /* Suppression de la marge extérieure */
-    padding: 0; /* Suppression du remplissage extérieur */
-    color: #484848; /* Ajouter une couleur noir */
-    font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  }
+  margin: 0; /* Suppression de la marge extérieure */
+  padding: 0; /* Suppression du remplissage extérieur */
+  color: #484848; /* Couleur du texte noire */
+  font-size: 14px; /* Taille de la police de 14 pixels */
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif; /* Police de caractères */
+}
