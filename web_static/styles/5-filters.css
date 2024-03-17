@@ -3,12 +3,10 @@
   background-color: white; /* Couleur de fond */
   height: 70px; /* Hauteur */
   width: 100%; /* Largeur automatique */
-  max-width: 1000px; /* Largeur maximale */
   border: 1px solid #DDDDDD; /* Bordure */
   border-radius: 4px; /* Coins arrondis */
   display: flex; /* Affichage en flexbox */
   align-items: center; /* Alignement vertical au centre */
-  justify-content: flex-end; /* Alignement horizontal à droite */
 }
 
 /* Styles pour le bouton de recherche */
@@ -20,9 +18,37 @@
   width: 20%; /* Largeur */
   border: none; /* Pas de bordure */
   border-radius: 4px; /* Coins arrondis */
+  margin-right: 30px; /* Marge à droite */
+  margin-left: auto; /* Marge à gauche automatique pour aligner à droite */
 }
 
 /* Style pour le bouton de recherche au survol */
 .filters button:hover {
   opacity: 90%; /* Opacité au survol */
+}
+
+/* Styles pour les éléments de localisation et d'aménagement */
+.locations, .amenities {
+  height: 100%; /* Hauteur à 100% */
+  width: 25%; /* Largeur à 25% */
+}
+
+/* Style pour les éléments de localisation */
+.locations {
+  border-right: 1px solid #DDDDDD; /* Bordure droite solide de 1 pixel */
+}
+
+/* Titre de niveau 3 */
+h3 {
+  font-weight: 600; /* Épaisseur de la police */
+  margin-left: 40px; /* Marge à gauche */
+  margin-bottom: 5px; /* Marge en bas */
+}
+
+/* Titre de niveau 4 */
+h4 {
+  font-weight: 400; /* Épaisseur de la police */
+  font-size: 14px; /* Taille de la police */
+  margin-top: 0px; /* Marge en haut */
+  margin-left: 40px; /* Marge à gauche */
 }

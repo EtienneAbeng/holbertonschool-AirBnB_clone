@@ -3,7 +3,6 @@
   background-color: white; /* Couleur de fond */
   height: 70px; /* Hauteur */
   width: 100%; /* Largeur automatique */
-  max-width: 1000px; /* Largeur maximale */
   border: 1px solid #DDDDDD; /* Bordure */
   border-radius: 4px; /* Coins arrondis */
   display: flex; /* Affichage en flexbox */
