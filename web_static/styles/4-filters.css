@@ -2,19 +2,17 @@
 .filters {
   background-color: white; /* Couleur de fond */
   height: 70px; /* Hauteur */
-  width: auto; /* Largeur automatique */
+  width: 100%; /* Largeur automatique */
   max-width: 1000px; /* Largeur maximale */
   border: 1px solid #DDDDDD; /* Bordure */
   border-radius: 4px; /* Coins arrondis */
   display: flex; /* Affichage en flexbox */
   align-items: center; /* Alignement vertical au centre */
   justify-content: flex-end; /* Alignement horizontal à droite */
-  padding: 0 20px; /* Espacement intérieur */
-  margin: 0 auto; /* Centrage horizontal */
 }
 
 /* Styles pour le bouton de recherche */
-button {
+.filter button {
   font-size: 18px; /* Taille de la police */
   background-color: #FF5A5F; /* Couleur de fond */
   color: #FFFFFF; /* Couleur du texte */
@@ -22,10 +20,9 @@ button {
   width: 20%; /* Largeur */
   border: none; /* Pas de bordure */
   border-radius: 4px; /* Coins arrondis */
-  margin-left: 30px; /* Marge à gauche */
 }
 
 /* Style pour le bouton de recherche au survol */
-button:hover {
+.filters button:hover {
   opacity: 90%; /* Opacité au survol */
 }
