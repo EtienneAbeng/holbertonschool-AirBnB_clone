@@ -1,0 +1,94 @@
+/* Styles pour les éléments flexibles */
+.flex {
+    display: flex; /* Affichage en flexbox */
+    flex-wrap: wrap; /* Enveloppement des éléments */
+    justify-content: center; /* Alignement central horizontal */
+}
+
+/* Styles pour les titres de niveau 1 des sections */
+.places h1 {
+    font-size: 30px; /* Taille de la police */
+}
+
+/* Styles pour les titres de niveau 2 des sections */
+.places h2 {
+    font-size: 30px; /* Taille de la police */
+    text-align: center; /* Alignement central du texte */
+    margin: 0; /* Suppression des marges */
+}
+
+/* Styles pour les articles dans les sections */
+.places article {
+    width: 390px; /* Largeur de l'article */
+    border-radius: 4px; /* Coins arrondis */
+    margin: 20px; /* Marge extérieure */
+    padding: 20px; /* Remplissage intérieur */
+    border: solid 1px #FF5A5F; /* Bordure solide */
+}
+
+/* Styles pour l'élément "price_by_night" */
+.price_by_night {
+    color: #FF5A5F; /* Couleur du texte */
+    border: solid 4px #FF5A5F; /* Bordure solide */
+    border-radius: 50%; /* Coins arrondis */
+    width: 60px; /* Largeur */
+    align-items: center; /* Alignement vertical au centre */
+    justify-content: center; /* Alignement horizontal au centre */
+    margin-left: auto; /* Marge à gauche automatique */
+    position: relative; /* Position relative */
+    top: -30px; /* Décalage vers le haut */
+    height: 60px; /* Hauteur */
+    font-size: 30px; /* Taille de la police */
+    display: flex; /* Affichage en flexbox */
+}
+
+/* Styles pour l'élément "information" */
+.information {
+    display: flex; /* Affichage en flexbox */
+    justify-content: center; /* Alignement central horizontal */
+    align-items: center; /* Alignement vertical au centre */
+    height: 80px; /* Hauteur */
+    border-top: solid 1px #DDDDDD; /* Bordure supérieure solide */
+    border-bottom: solid 1px #DDDDDD; /* Bordure inférieure solide */
+}
+
+/* Styles pour les éléments "max_guest", "number_rooms", "number_bathrooms" */
+.max_guest, .number_rooms, .number_bathrooms {
+    height: 100px; /* Hauteur */
+    width: 100px; /* Largeur */
+    margin-top: 10px; /* Marge supérieure */
+    display: flex; /* Affichage en flexbox */
+    justify-content: center; /* Alignement central horizontal */
+    background-repeat: no-repeat; /* Répétition de l'arrière-plan */
+    background-position: center top; /* Position de l'arrière-plan */
+}
+
+/* Styles pour l'élément "max_guest" */
+.max_guest {
+    background-position: 50% 15%; /* Position de l'arrière-plan */
+    background-image: url(../images/icon_group.png); /* Image de fond */
+}
+
+/* Styles pour l'élément "number_rooms" */
+.number_rooms {
+    background-position: 50% 15%; /* Position de l'arrière-plan */
+    background-image: url(../images/icon_bed.png); /* Image de fond */
+}
+
+/* Styles pour l'élément "number_bathrooms" */
+.number_bathrooms {
+    background-position: 50% 15%; /* Position de l'arrière-plan */
+    background-image: url(../images/icon_bath.png); /* Image de fond */
+}
+
+/* Styles pour les paragraphes à l'intérieur des éléments "max_guest", "number_rooms", "number_bathrooms" */
+.max_guest p,
+.number_bathrooms p,
+.number_rooms p {
+    margin-top: 55px; /* Marge supérieure */
+}
+
+/* Styles pour l'élément "description" */
+.description {
+    text-align: left; /* Alignement du texte à gauche */
+}
