@@ -1,7 +1,7 @@
 header {
-    background-color: #FF0000; /* Couleur de fond rouge */
-    height: 70px; /* Hauteur de l'en-tête */
-    width: 100%; /* Largeur de l'en-tête à 100% */
-    border-bottom: 1px, #CCCCCC;
-    background: url("../images/logo.png") no-repeat top left 20px;
-  }
+  background-color: white; /* Couleur de fond rouge */
+  height: 70px; /* Hauteur de l'en-tête */
+  width: 100%; /* Largeur de l'en-tête à 100% */
+  border-bottom: 1px solid #CCCCCC; /* Bordure inférieure grise de 1 pixel solide */
+  background: url("../images/logo.png") no-repeat top left 20px; /* Image de logo positionnée en haut à gauche à 20 pixels du bord */
+}
