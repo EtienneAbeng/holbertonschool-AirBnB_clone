@@ -1,0 +1,27 @@
+/* Styles pour les éléments flexibles */
+.flex {
+    display: flex; /* Affichage en flexbox */
+    flex-wrap: wrap; /* Enveloppement des éléments */
+    justify-content: center; /* Alignement central horizontal */
+}
+
+/* Styles pour les titres de niveau 1 des sections */
+.places h1 {
+    font-size: 30px; /* Taille de la police */
+}
+
+/* Styles pour les titres de niveau 2 des sections */
+.places h2 {
+    font-size: 30px; /* Taille de la police */
+    text-align: center; /* Alignement central du texte */
+    margin: 0; /* Suppression des marges */
+}
+
+/* Styles pour les articles dans les sections */
+.places article {
+    width: 390px; /* Largeur de l'article */
+    border-radius: 4px; /* Coins arrondis */
+    margin: 20px; /* Marge extérieure */
+    padding: 20px; /* Remplissage intérieur */
+    border: solid 1px #FF5A5F; /* Bordure solide */
+}
