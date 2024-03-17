@@ -1,93 +1,106 @@
+/* Styles pour la section des filtres */
 .filters {
-	background-color: white;
-	height: 70px;
-	width: 100%;
-	border: 1px solid #DDDDDD;
-	border-radius: 4px;
-	align-items:center;
-	display: flex;
+	background-color: white; /* Couleur de fond */
+	height: 70px; /* Hauteur */
+	width: 100%; /* Largeur automatique */
+	border: 1px solid #DDDDDD; /* Bordure */
+	border-radius: 4px; /* Coins arrondis */
+	display: flex; /* Affichage en flexbox */
+	align-items: center; /* Alignement vertical au centre */
 }
 
-.locations{
-	height: 100%;
-	width: 25%;
-	border-right: 1px solid #DDDDDD;
+/* Styles pour le bouton de recherche */
+.filters button {
+	font-size: 18px; /* Taille de la police */
+	background-color: #FF5A5F; /* Couleur de fond */
+	color: #FFFFFF; /* Couleur du texte */
+	height: 48px; /* Hauteur */
+	width: 20%; /* Largeur */
+	border: none; /* Pas de bordure */
+	border-radius: 4px; /* Coins arrondis */
+	margin-right: 30px; /* Marge à droite */
+	margin-left: auto; /* Marge à gauche automatique pour aligner à droite */
 }
 
-.filters h3{
-	padding-left: 40px;
-	padding-top: 10px;
-	font-weight: 600;
-	margin: 5px;
+/* Style pour le bouton de recherche au survol */
+.filters button:hover {
+	opacity: 90%; /* Opacité au survol */
 }
 
-.filters h4{
-	font-weight: 400;
-	font-size: 14px;
-	margin: 5px;
-	padding-left: 40px;
+/* Styles pour les éléments de localisation et d'aménagement */
+.locations, .amenities {
+	height: 100%; /* Hauteur à 100% */
+	width: 25%; /* Largeur à 25% */
 }
 
-.filters .amenities {
-	height: 100%;
-	width: 25%;
+/* Style pour les éléments de localisation */
+.locations {
+	border-right: 1px solid #DDDDDD; /* Bordure droite solide de 1 pixel */
 }
 
-button {
-	font-size: 18px;
-	background-color: #FF5A5F;
-	color: #FFFFFF;
-	height: 48px;
-	width: 20%;
-	border:0px;
-	border-radius: 4px;
-	margin-right: 30px;
-	margin-left: auto;
+/* Titre de niveau 3 */
+h3 {
+	font-weight: 600; /* Épaisseur de la police */
+	margin-left: 40px; /* Marge à gauche */
+	margin-bottom: 5px; /* Marge en bas */
 }
 
-button:hover {
-	opacity: 90%;
+/* Titre de niveau 4 */
+h4 {
+	font-weight: 400; /* Épaisseur de la police */
+	font-size: 14px; /* Taille de la police */
+	margin-top: 0px; /* Marge en haut */
+	margin-left: 40px; /* Marge à gauche */
 }
 
+/* Style pour les listes non ordonnées */
+ul {
+    list-style-type: none; /* Suppression des puces */
+}
+
+/* Style pour les fenêtres contextuelles (popover) */
 .popover {
-	background-color: #FAFAFA;
-	border: 1px solid #DDDDDD;
-	border-radius: 4px;
-	padding-bottom: 40px;
-	padding-top: 20px;
-	text-align: left;
-	padding-left: 45px;
-	margin-left: 0;
-	opacity: .99;
-	visibility: hidden;
+    border: solid 1px #DDDDDD; /* Bordure */
+    background-color: #FAFAFA; /* Couleur de fond */
+    border-radius: 4px; /* Coins arrondis */
+    display: none; /* Masquée par défaut */
 }
 
-
-.locations:hover .popover{
-	visibility: visible;
+/* Style pour les fenêtres contextuelles des éléments de localisation */
+.locations .popover {
+    padding-bottom: 20px; /* Remplissage en bas */
+    margin-top: 13px; /* Marge en haut */
 }
 
-.amenities:hover .popover{
-	visibility: visible;
+/* Style pour les fenêtres contextuelles des commodités */
+.amenities .popover {
+    padding-top: 20px; /* Remplissage en haut */
+    padding-bottom: 20px; /* Remplissage en bas */
+    margin-top: 13px; /* Marge en haut */
 }
 
-.popover h2{
-	padding-top: 0;
-	margin-top: 0;
-	margin-left: -10px;
-	padding-left: 0;
-	font-size: 16px;
+/* Style pour les titres des fenêtres contextuelles */
+.popover h2 {
+    margin-bottom: 5px; /* Marge en bas */
 }
 
-.popover li{
-	list-style-type:none;
-	padding-top: 5px;
-	padding-bottom: 5px;
+/* Style pour les listes imbriquées dans les fenêtres contextuelles */
+.popover li ul {
+    padding-left: 0; /* Aucune marge à gauche */
 }
 
-.popover ul{
-	text-align: left;
-	padding-left: 0px;
-	margin-left: 0;
-	padding-bottom: 10px;
+/* Style pour les éléments de liste à l'intérieur des fenêtres contextuelles */
+.popover li ul li:not(:first-child) {
+    padding-left: 20px; /* Marge à gauche pour les éléments de liste sauf le premier */
+}
+
+/* Affichage de la fenêtre contextuelle lorsque survolé */
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block; /* Afficher la fenêtre contextuelle au survol */
+}
+
+/* Style pour les éléments de liste à l'intérieur des fenêtres contextuelles */
+.popover li {
+    line-height: 1.4rem; /* Hauteur de ligne */
 }
