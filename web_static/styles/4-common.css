@@ -1,13 +1,12 @@
 body {
-    margin: 0; /* Suppression de la marge extérieure */
-    padding: 0; /* Suppression du remplissage extérieur */
-    color: #484848; /* Ajouter une couleur noir */
-    font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin-bottom: 60px;
-  }
+  margin: 0; /* Suppression de la marge extérieure */
+  padding: 0; /* Suppression du remplissage extérieur */
+  color: #484848; /* Couleur du texte noire */
+  font-size: 14px; /* Taille de la police de 14 pixels */
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif; /* Police de caractères à utiliser */
+}
 
 .container {
-  max-width: 1000px;
-  margin: 30px auto; 
+  max-width: 1000px; /* Largeur maximale du conteneur à 1000 pixels */
+  margin: 30px auto; /* Marge de 30 pixels en haut et en bas, centré horizontalement */
 }
