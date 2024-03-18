@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <!-- HEAD -->
+  <meta charset="utf-8"> <!-- Encodage des caractères -->
+  <meta name="viewport" content="width=device-width"> <!-- Largeur de l'affichage sur les appareils mobiles -->
+  <title> Homepage - AirBnB clone </title>
+  <link rel="icon" type="image/png" href="../web_static/images/icon.png"> <!-- Définition de l'icône du site -->
+  <link rel="stylesheet" type="text/css" href="../web_static/styles/3-footer.css"> <!-- Importation du style pour le pied de page -->
+  <link rel="stylesheet" type="text/css" href="../web_static/styles/3-header.css"> <!-- Importation du style pour l'en-tête -->
+  <link rel="stylesheet" type="text/css" href="../web_static/styles/6-filters.css"> <!-- Importation du style pour les filtres -->
+  <link rel="stylesheet" type="text/css" href="../web_static/styles/4-common.css"> <!-- Importation du style commun -->
+  <link rel='stylesheet' type="text/css" href='../web_static/styles/8-places.css'> <!-- Importation du styles pour les places-->
+</head>
+
+<body>
+  <header></header> <!-- Balise d'en-tête vide -->
+
+  <div class="container">
+    <section class="filters">
+      <div class="locations"> <!-- Section des filtres de localisation -->
+        <h3> States </h3> <!-- Titre des états -->
+        <h4> California, Arizona... </h4> <!-- Sous-titre des états -->
+        <ul class="popover">
+          <li>
+            <ul>
+              <li>
+                <h2> California </h2> <!-- Nom de l'état -->
+              </li>
+              <li> San Francisco </li> <!-- Ville -->
+              <li> Etienne </li> <!-- Autre ville -->
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li>
+                <h2>Arizona</h2> <!-- Nom de l'état -->
+              </li>
+              <li> Texas</li> <!-- Ville -->
+              <li> Home sweet home </li> <!-- Autre ville -->
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="amenities">
+        <h3>Amenities</h3> <!-- Titre des commodités -->
+        <h4>Internet, kitchen...</h4> <!-- Sous-titre des commodités -->
+        <ul class="popover">
+          <li> Internet </li> <!-- Commodité -->
+          <li> Kitchen </li> <!-- Commodité -->
+        </ul>
+      </div>
+      <button> Search  </button> <!-- Bouton de recherche -->
+    </section>
+
+    <section class="places">
+      <h1> Places </h1> <!-- Titre des lieux -->
+      <div class="flex">
+        <article> 
+          <h2> My Home </h2> <!-- Nom de l'endroit -->
+          <div class="price_by_night"> $80 </div> <!-- Prix par nuit -->
+          <div class="information">
+            <div class="max_guest"> 2 Guests </div> <!-- Nombre maximum d'invités -->
+            <div class="number_rooms"> 1 Bedroom </div> <!-- Nombre de chambres -->
+            <div class="number_bathrooms">1 Bathroom</div> <!-- Nombre de salles de bains -->
+          </div>
+          <div class="user"><b> Owner: </b> John lenon </div> <!-- Propriétaire -->
+          <div class="description"> This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people. It locates at the center of Shanghai and next to subway line 1. 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan temple </div> <!-- Description -->
+        </article>
+        <article> 
+          <h2> Tiny House </h2> <!-- Nom de l'endroit -->
+          <div class="price_by_night"> $65 </div> <!-- Prix par nuit -->
+          <div class="information">
+            <div class="max_guest"> 4 Guests </div> <!-- Nombre maximum d'invités -->
+            <div class="number_rooms"> 2 Bedrooms </div> <!-- Nombre de chambres -->
+            <div class="number_bathrooms"> 1 Bathroom </div> <!-- Nombre de salles de bains -->
+          </div>
+            <div class="user"><b>Owner:</b> Adrienne </div> <!-- Propriétaire -->
+            <div class="description">Our place is a private, affordable stand-alone guest house centrally located just minutes to French Quarters, downtown, the Fair Grounds(Jazz Fest) and City Park. The guest house is a quaint, 400 square ft. with a full bath, mini kitchen, & living room. The extra high ceilings make the home feel more spacious. The sofa converts to a bed also. We have a hand made counter area that adds character to the room and a great porch/deck to relax on and have a glass of Merlot. </div> <!-- Description -->
+        </article>
+        <article> 
+          <h2> A suite </h2> <!-- Nom de l'endroit -->
+          <div class="price_by_night"> $99 </div> <!-- Prix par nuit -->
+          <div class="information">
+            <div class="max_guest"> 1 Guests </div> <!-- Nombre maximum d'invités -->
+            <div class="number_rooms"> 1 Bedroom </div> <!-- Nombre de chambres -->
+            <div class="number_bathrooms"> 1 Bathroom </div> <!-- Nombre de salles de bains -->
+          </div>
+          <div class="user"><b> Owner: </b> Michael Jordan </div> <!-- Propriétaire -->
+          <div class="description"> Small space with all the lux you deserve, pool, billar, TV an beautiful forniture. </div> <!-- Description -->
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <footer> <!-- Balise de pied de page -->
+    <p> Holberton School </p> <!-- Texte du pied de page -->
+  </footer>
+</body>
+</html>
